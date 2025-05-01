@@ -44,9 +44,9 @@ class developers extends Employee{
 }
 public class ques2_employee {
     public static void main(String[] args) {
-        Employee Manager=new Manager(40000,"Ansh","Manager");
+        Employee Manager=new Manager(40000,"Anirudh","Manager");
        
-        Employee Developer=new developers(40, 20, "vikhyat", "developer");
+        Employee Developer=new developers(40, 20, "Krish", "developer");
 
         Manager.calculatesalary();
         Manager.displayDetails();
